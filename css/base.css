@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: 1.5;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-barbie-soft);
+  color: white;
+}
+
+::-webkit-scrollbar          { height: 6px; width: 6px; }
+::-webkit-scrollbar-track    { background: #ffe6ee; }
+::-webkit-scrollbar-thumb    { background: var(--color-barbie-soft); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-barbie-primary); }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-barbie-soft) #ffe6ee;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-barbie-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
