@@ -1,0 +1,70 @@
+:root {
+  /* ── Fondo y superficies (Dark Mode) ─────────────────── */
+  --color-bg:               #0f0a12; 
+  --color-surface:          #1a121e;
+  --color-surface-hover:    #261a2c;
+
+  /* ── Paleta  ─────────────────────────────── */
+  --color-barbie-primary:   #ff2a9d; 
+  --color-barbie-dark:      #d60072;
+  --color-barbie-soft:      #ff66b2;
+  --color-barbie-glow:      rgba(255, 42, 157, 0.25);
+
+  /* ── Texto ───────────────────────────────────────────── */
+  --color-text:             #fcecf4; 
+  --color-text-dim:         #c29bb0; 
+
+  /* ── Estados de cards ────────────────────────────────── */
+  /* Bloqueada: Oscura y apagada */
+  --card-locked-bg:         rgba(255, 255, 255, 0.03);
+  --card-locked-border:     rgba(255, 255, 255, 0.07);
+  --card-locked-text:       #6e5262;
+
+  /* Puede Cursar: Borde y detalle en rosa suave, superficie oscura */
+  --card-available-bg:      #211527;
+  --card-available-border:  #ff80bf;
+  --card-available-text:    #fcecf4;
+
+  /* Regular: Fondo rosa magenta intermedio con brillo */
+  --card-regular-bg:        #b3006b;
+  --card-regular-border:    #ff33a8;
+  --card-regular-text:      #ffffff;
+
+  /* Aprobada: Rosa Barbie Neón con alto contraste */
+  --card-approved-bg:       #ff2a9d;
+  --card-approved-border:   #ff80cb;
+  --card-approved-text:     #ffffff;
+
+  /* ── Toast ───────────────────────────────────────────── */
+  --toast-bg:               #2b1022;
+
+  /* ── Tipografía ──────────────────────────────────────── */
+  --font-sans:              'DM Sans', system-ui, sans-serif;
+  --font-serif:             'DM Serif Display', Georgia, serif;
+
+  --text-xs:                0.72rem;
+  --text-sm:                0.83rem;
+  --text-base:              1.00rem;
+  --text-lg:                1.15rem;
+  --text-hero:              clamp(2.0rem, 5vw, 3.2rem);
+
+  /* ── Espaciado ───────────────────────────────────────── */
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+
+  /* ── Bordes ──────────────────────────────────────────── */
+  --radius-sm:  8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  /* ── Transiciones ────────────────────────────────────── */
+  --t-fast:     0.15s ease;
+  --t-base:     0.20s ease;
+  --t-progress: 0.60s ease;
+}
